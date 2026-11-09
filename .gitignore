@@ -1,0 +1,10 @@
+# Participant data: never publish
+data/
+sessions*.csv
+*.csv
+
+# macOS / Python / editor files
+.DS_Store
+__pycache__/
+*.pyc
+.playwright-mcp/
