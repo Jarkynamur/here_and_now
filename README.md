@@ -1,7 +1,7 @@
 # Here and Now
 
-Demo video: https://drive.google.com/drive/folders/10oO9NVvlpZ0EOpElwPYt7Rbx4fwrx3Ad?usp=sharing 
-
+**Demo video:** https://drive.google.com/drive/folders/10oO9NVvlpZ0EOpElwPYt7Rbx4fwrx3Ad?usp=sharing 
+**Or try it live:** https://hereandnow-wbqs5cwfobmvajptjngv9e.streamlit.app
 
 ## What is this
 This is a small prototype to understand one idea: can a short exercise help  people name what they feel right now? It is a pilot for a larger research project with three directions: 1. Real connection, 2.  Professional support, 3. AI as a mirror. This prototype tests a simple version of the third one, a "mirror" without AI
