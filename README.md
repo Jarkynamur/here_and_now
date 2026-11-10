@@ -1,6 +1,7 @@
 # Here and Now
 
-**Demo video:** https://drive.google.com/drive/folders/10oO9NVvlpZ0EOpElwPYt7Rbx4fwrx3Ad?usp=sharing 
+**Demo video:** https://drive.google.com/drive/folders/10oO9NVvlpZ0EOpElwPYt7Rbx4fwrx3Ad?usp=sharing
+
 **Or try it live:** https://hereandnow-wbqs5cwfobmvajptjngv9e.streamlit.app
 
 ## What is this
