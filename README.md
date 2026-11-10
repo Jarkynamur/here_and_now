@@ -5,7 +5,7 @@
 **Or try it live:** https://hereandnow-wbqs5cwfobmvajptjngv9e.streamlit.app
 
 ## What is this
-This is a small prototype to understand one idea: can a short exercise help people name what they feel right now? It is a pilot for a larger research project with three directions: 1. Real connection, 2.  Professional support, 3. AI as a mirror. This prototype tests a simple version of the third one, a "mirror" without AI.
+This is a small prototype to understand one idea: can a short exercise help people name what they feel right now? It is a pilot for a larger research project with three directions: 1. Real connection, 2. Professional support, 3. AI as a mirror. This prototype tests a simple version of the third one, a "mirror" without AI.
 
 ## How to run it
 The prototype is built with Python and Streamlit. First, you need to install Streamlit, then run the prototype from the project folder. A page opens in the browser.
@@ -32,13 +32,13 @@ My hypothesis: naming a feeling can be easier first step before sharing it with 
 The first screen explains the purpose of the exercise. The prototype is built with a rule-based mirror and no AI yet. 
 
 Step 1. 
-- The user can choose one of six basic feelings. If  it's hard to choose, they can describe feelings in their own words (alternative flow). 
+- The user can choose one of six basic feelings. If it's hard to choose, they can describe feelings in their own words (alternative flow). 
 
 Step 2. 
-- The mirror reflects the choice or the text back and asks "Where do you feel this in your body right now?" a question about their body, to check whether the feeling fits.
+- The mirror reflects the choice or the text back and asks "Where do you feel this in your body right now?" to check whether the feeling fits.
 
 Step 3. 
-- The prototype asks if the feeling is stronger, weaker, the same as at the beginning. I want to see if the feeling changes when a person pays attention to it.
+- The prototype asks if the feeling is stronger, weaker, or the same as at the beginning. I want to see if the feeling changes when a person pays attention to it.
 
 Step 4.
 - The person answers "What influenced this feeling?". This gives context based on the results of test round 1, when one person wanted to explain the situation.
@@ -108,7 +108,7 @@ I also used Claude's help to create a .gitignore file, so participants' answers 
 - Anonymity matters but saying "it is private" is not enough to make people safe. In my survey, 9 of 46 chose anonymity as important in online communication (30 chose sincerity).
 - A person should choose to share, not be pushed. Not every feeling needs another person.
 - The app is for good feelings too. I first thought about difficult emotions. Now the questions also work for joy.
-- Small words change a lot. The same question can be read as being about the interface and about the feeling. So I also need to pay attention to UX writing.  
+- Small words change a lot. The same question can be read as being about the interface or about the feeling. So I also need to pay attention to UX writing.
 
 
 ## Testing
