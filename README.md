@@ -60,27 +60,25 @@ The prototype says thank you, so people know the exercise is over.
 
 Both flows (buttons and own words) are the same after step 2.
 
-Safety:
+**Safety:**
 If the user writes some risky words such as "hurt myself" or "don't want to live", the prototype stops the exercise and shows a message: "talk to a trusted person or contact a local support service". This is a first, minimal step toward direction 2, professional support. The word list is basic and can miss cases.
 
 ## Pilot results
 
-Pilot 1
+Test round 1
 
 The first version was one long page. People didn't understand what the exercise was for and expected a survey. Also some people read "Where was it hard?" as a question about the interface. For the two people who wrote text, the program didn't find feeling words, because their  words weren't in my list. After the pilot I added a more detailed intro, separate screens, a direct question about how hard it was to name the feeling, an optional sharing step and new words.
 
-Pilot 2
+Test round 2
 
 The exercise was clear to everyone. 
 The first person didn't have any difficulties. 
-The second asked if it was anonymous and said the question "What is happening with this feeling now?" needed a small clarification. She also noticed the feeling became stronger because she thought about it again. 
-The third person describe positive feelings and felt the last question about sharing is only relevant for negative emotions. 
+The second asked if it was anonymous. She said the question "What is happening with this feeling now?" needed a small clarification. She also noticed the feeling became stronger because she thought about it again. 
+The third person describe positive feelings and felt the last question about sharing is only relevant for negative emotions. She also asked about anonymity. Even after I told her that only I would see the answers, she said she still could not open up fully.
 
-Two of three people mentioned anonymity and one said it kept her from opening up fully, even though I told her only I would see the answers.
+After test round 2 
 
-After pilot 2 
-
-I made the anonymity note more visible and clearer, and rewrote  the sharing question so it works for positive feelings too.
+I made the anonymity note more visible and clearer, and rewrote the sharing question so it works for positive feelings too.
 
 
 ## What doesn't work yet
@@ -100,6 +98,22 @@ Next I want to test the prototype with more people and make anonymity clearer. L
 The idea, the research question, the flow, the questions, the tests and the notes are mine. I wrote the code in Python myself. I used Claude Code as a learning tool, like a talking textbook. It explained concepts, suggested next steps and helped me fix errors. I checked every change by running the prototype locally (localhost preview). I made a Russian copy of the English version for testing with users.
 
 I also used Claude's help to create a .gitignore file, so participants' answers are not published. Two of the three people in pilot 2 mentioned anonymity.
+
+## What I learned
+
+### About code
+
+- I often mixed up what is text and what is a command. Text goes inside quotes and a variable name goes without quotes.
+- I tried to understand which line belongs to what. I learned that every "if" has its own commands inside and the indent shows where they are.
+- I learned to split the app into screens with "elif", and to use "if/else" for different paths. It works like a user flow that I draw as a designer: a choice leads to the next screen.
+- I tried to write code without autocomplete to remember the order of quotes, asterisks, commas and spaces.
+
+### About people and the idea
+
+- Anonymity matters but saying "it is private" is not enough to make people safe. In my syrvey, 9 of 46 chose anonymity as important in online communication (30 chose sincerity).
+- A person should choose to share, not be pushed. Not every feeling needs another person.
+- The app is for good feelings too. I first thought about difficult emotions. Now the questions also work for joy.
+- Small words change a lot. The same question can be read as about the interface and about the feeling. So I also need to pay attention to UX writing.  
 
 
 ### Testing
