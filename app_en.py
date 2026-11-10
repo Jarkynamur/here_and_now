@@ -3,6 +3,7 @@ import csv
 from datetime import datetime
 stems = ["sad", "angry", "afraid", "disgust", "despond", "anticipat", "uncertain", "cheerful", "scared", "panic", "surpris", "happy", "joy", "fear", "anger", "calm", "envious", "peaceful", "glad", "lonely", "empty", "hurt", "annoy", "frustrated", "guilty", "ashamed", "embarrassed", "confused", "overwhelmed", "stressed", "anxi", "nervous", "worr", "excit", "hopeful", "gratef", "relieved", "shocked", "disappointed", "jealous", "envy", "resentful", "bored", "tired", "sleepy", "restless", "distracted", "unmotivated", "apathetic", "indifferent"]
 risk_words = ["suicide", "kill myself", "want to die", "hurt myself", "don't want to live"]
+SAVE_ANSWERS = False
 if "screen" not in st.session_state:
     st.session_state["screen"] = 1
 step = st.session_state["screen"]
@@ -11,7 +12,7 @@ if step <= 5:
 if st.session_state["screen"] == 1:
     st.title("Here and Now")
     st.info("This is a learning prototype for my research: I'm exploring how people can name their feelings. This is not therapy. It will take about 2 minutes.")
-    st.success("There are no right answers, just answer how you feel right now. Answers are anonymously saved without your name on my computer and are not published.")
+    st.success("There are no right answers, just answer how you feel right now. This is a demo version: your answers are not saved.")
     st.write("**What are you feeling right now?**")
     if st.button("Joy"):
         st.session_state["chosen"] = "joy"
@@ -92,9 +93,10 @@ elif st.session_state["screen"] == 5:
     if st.button("Finish"):
         st.session_state["hard"] = hard
         st.session_state["bridge"] = bridge
-        with open("sessions_en.csv", "a", newline="", encoding="utf-8-sig") as f:
-                writer = csv.writer(f)
-                writer.writerow([datetime.now(), st.session_state.get("chosen", ""), st.session_state.get("text", ""), ','.join(st.session_state.get("found", [])), st.session_state.get("body", ""), st.session_state.get("changed", ""),  st.session_state.get("situation", ""), st.session_state.get("situation_text", ""), st.session_state.get("hard", ""), st.session_state.get("bridge", "")])
+        if SAVE_ANSWERS:
+            with open("sessions_en.csv", "a", newline="", encoding="utf-8-sig") as f:
+                    writer = csv.writer(f)
+                    writer.writerow([datetime.now(), st.session_state.get("chosen", ""), st.session_state.get("text", ""), ','.join(st.session_state.get("found", [])), st.session_state.get("body", ""), st.session_state.get("changed", ""),  st.session_state.get("situation", ""), st.session_state.get("situation_text", ""), st.session_state.get("hard", ""), st.session_state.get("bridge", "")])
         st.session_state["screen"] = 6
         st.rerun()
 elif st.session_state["screen"] == 6:
