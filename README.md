@@ -15,13 +15,6 @@ Install Streamlit:
 pip3 install streamlit
 ```
 
-Run the Russian version: 
-
-```bash
-cd /path/to/the/project
-python3 -m streamlit run app_screens.py
-```
-
 Run the English version: 
 
 ```bash
