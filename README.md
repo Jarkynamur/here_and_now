@@ -2,6 +2,7 @@
 
 Demo video: https://drive.google.com/drive/folders/10oO9NVvlpZ0EOpElwPYt7Rbx4fwrx3Ad?usp=sharing 
 
+
 ## What is this
 This is a small prototype to understand one idea: can a short exercise help  people name what they feel right now? It is a pilot for a larger research project with three directions: 1. Real connection, 2.  Professional support, 3. AI as a mirror. This prototype tests a simple version of the third one, a "mirror" without AI
 
@@ -77,9 +78,9 @@ The third person describe positive feelings and felt the last question about sha
 
 Two of three people mentioned anonymity and one said it kept her from opening up fully, even though I told her only I would see the answers.
 
-**What I would change**
+After pilot 2 
 
-Make anonymity clearer and rewrite the sharing question so it works for positive feelings. Also to clarify the "what is happening now" question.
+I made the anonymity note more visible and clearer, and rewrote  the sharing question so it works for positive feelings too.
 
 
 ## What doesn't work yet
