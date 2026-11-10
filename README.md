@@ -5,10 +5,10 @@
 **Or try it live:** https://hereandnow-wbqs5cwfobmvajptjngv9e.streamlit.app
 
 ## What is this
-This is a small prototype to understand one idea: can a short exercise help  people name what they feel right now? It is a pilot for a larger research project with three directions: 1. Real connection, 2.  Professional support, 3. AI as a mirror. This prototype tests a simple version of the third one, a "mirror" without AI
+This is a small prototype to understand one idea: can a short exercise help people name what they feel right now? It is a pilot for a larger research project with three directions: 1. Real connection, 2.  Professional support, 3. AI as a mirror. This prototype tests a simple version of the third one, a "mirror" without AI.
 
 ## How to run it
-The prototype is built with Python and Streamlit. Firstly, you need to install Streamlit, then run the prototype from the project folder. A page opens in the browser.
+The prototype is built with Python and Streamlit. First, you need to install Streamlit, then run the prototype from the project folder. A page opens in the browser.
 
 Install Streamlit:
 ```bash
@@ -23,7 +23,7 @@ python3 -m streamlit run app_en.py
 
 ## Why I made it
 
-In my survey, about one third of respondents share their thoughts with AI, and most of them named fear of judgment as a barrier to sharing with people. In Gestalt practice an exercise often starts with the question: " What are you feeling right now?". During my Gestalt training, I noticed that many people find it hard to answer this question at first. If it's hard to name a feeling, it is even harder to share it with someone.
+In my survey, about one third of respondents share their thoughts with AI, and most of them named fear of judgment as a barrier to sharing with people. In Gestalt practice an exercise often starts with the question: "What are you feeling right now?". During my Gestalt training, I noticed that many people find it hard to answer this question at first. If it's hard to name a feeling, it is even harder to share it with someone.
 
 My hypothesis: naming a feeling can be easier first step before sharing it with another person. This prototype tests whether an exercise helps people do it.
 
@@ -32,16 +32,16 @@ My hypothesis: naming a feeling can be easier first step before sharing it with 
 The first screen explains the purpose of the exercise. The prototype is built with a rule-based mirror and no AI yet. 
 
 Step 1. 
-- The user can chooses one of six basic feelings. If  it's hard to choose, they can describe feelings in their own words (alternative flow). 
+- The user can choose one of six basic feelings. If  it's hard to choose, they can describe feelings in their own words (alternative flow). 
 
 Step 2. 
-- The mirror reflects the choice or the text back and asks a question about their body, to check whether the feeling fits.
+- The mirror reflects the choice or the text back and asks "Where do you feel this in your body right now?" a question about their body, to check whether the feeling fits.
 
 Step 3. 
-- The prototype asks "Where do you feel this in your body right now?". The person chooses: stronger, weaker, the same. I want to see if the feeling changes when a person pays attention on it.
+- The prototype asks if the feeling is stronger, weaker, the same as at the beginning. I want to see if the feeling changes when a person pays attention to it.
 
 Step 4.
-- The person answers "What influences this feeling?". This gives context based on the results of test round 1, when one person wanted to explain the situation.
+- The person answers "What influenced this feeling?". This gives context based on the results of test round 1, when one person wanted to explain the situation.
 
 - An optional field to tell more.
 
@@ -69,7 +69,7 @@ Test round 2
 The exercise was clear to everyone. 
 The first person didn't have any difficulties. 
 The second asked if it was anonymous. She said the question "What is happening with this feeling now?" needed a small clarification. She also noticed the feeling became stronger because she thought about it again. 
-The third person describe positive feelings and felt the last question about sharing is only relevant for negative emotions. She also asked about anonymity. Even after I told her that only I would see the answers, she said she still could not open up fully.
+The third person described positive feelings and felt the last question about sharing is only relevant for negative emotions. She also asked about anonymity. Even after I told her that only I would see the answers, she said she still could not open up fully.
 
 After test round 2 
 
@@ -85,7 +85,7 @@ I made the anonymity note more visible and clearer, and rewrote the sharing ques
 
 ## What is next
 
-Next I want to test the prototype with more people and make anonymity clearer. Later, I want use AI as a tool to help people reflect their emotions and feelings. 
+Next I want to test the prototype with more people. Later, I want use AI as a tool to help people reflect their emotions and feelings. 
 
 
 ## How I worked
@@ -108,9 +108,9 @@ I also used Claude's help to create a .gitignore file, so participants' answers 
 - Anonymity matters but saying "it is private" is not enough to make people safe. In my survey, 9 of 46 chose anonymity as important in online communication (30 chose sincerity).
 - A person should choose to share, not be pushed. Not every feeling needs another person.
 - The app is for good feelings too. I first thought about difficult emotions. Now the questions also work for joy.
-- Small words change a lot. The same question can be read as about the interface and about the feeling. So I also need to pay attention to UX writing.  
+- Small words change a lot. The same question can be read as being about the interface and about the feeling. So I also need to pay attention to UX writing.  
 
 
-### Testing
+## Testing
 
-I ran 3 test sessions on version 1 and 3 test sessions on version 2 and took notes. After each round I improved the prototype based on my notes. For example, after round 1, I added an introduction explaining the purpose of this exercise, a question about what influenced the feeling, and the option "I can handle it myself." After the second session I changed the "I can handle it myself" to "No, not now" to make the option more flexible, not only regarding negative emotions.
+I ran 3 test sessions on version 1 and 3 test sessions on version 2 and took notes. After each round I improved the prototype based on my notes. For example, after round 1, I added an introduction explaining the purpose of this exercise, a question about what influenced the feeling, and the option "I can handle it myself." After round 2, I changed the "I can handle it myself" to "No, not now" to make the option more flexible, not only regarding negative emotions.
