@@ -41,7 +41,7 @@ Step 3.
 - The prototype asks "Where do you feel this in your body right now?". The person chooses: stronger, weaker, the same. I want to see if the feeling changes when a person pays attention on it.
 
 Step 4.
-- The person answers "What influences this feeling?". This gives context based on the results of pilot 1, when one person wanted to explain the situation.
+- The person answers "What influences this feeling?". This gives context based on the results of test round 1, when one person wanted to explain the situation.
 
 - An optional field to tell more.
 
@@ -61,7 +61,8 @@ If the user writes some risky words such as "hurt myself" or "don't want to live
 
 Test round 1
 
-The first version was one long page. People didn't understand what the exercise was for and expected a survey. Also some people read "Where was it hard?" as a question about the interface. For the two people who wrote text, the program didn't find feeling words, because their  words weren't in my list. After the pilot I added a more detailed intro, separate screens, a direct question about how hard it was to name the feeling, an optional sharing step and new words.
+The first version was one long page. People didn't understand what the exercise was for and expected a survey. Also some people read "Where was it hard?" as a question about the interface. For the two people who wrote text, the program didn't find feeling words, because their words weren't in my list. After the test I added a more detailed intro, separate screens, a direct question about how hard it was to name the feeling, an optional sharing step and new words.
+
 
 Test round 2
 
@@ -77,21 +78,21 @@ I made the anonymity note more visible and clearer, and rewrote the sharing ques
 
 ## What doesn't work yet
 
-I tested only a few people, so the results are early.
+- I tested only a few people, so the results are early.
 
-The mirror idea follows simple rules. It only finds feeling words from my list and doesn't understand things like "not sad".
-
-There is no AI yet. AI as the mirror is the next step.
+- The mirror idea follows simple rules. It only finds feeling words from my list and doesn't understand things like "not sad".
+  
 
 ## What is next
 
 Next I want to test the prototype with more people and make anonymity clearer. Later, I want use AI as a tool to help people reflect their emotions and feelings. 
 
+
 ## How I worked
 
 The idea, the research question, the flow, the questions, the tests and the notes are mine. I wrote the code in Python myself. I used Claude Code as a learning tool, like a talking textbook. It explained concepts, suggested next steps and helped me fix errors. I checked every change by running the prototype locally (localhost preview). I made a Russian copy of the English version for testing with users.
 
-I also used Claude's help to create a .gitignore file, so participants' answers are not published. Two of the three people in pilot 2 mentioned anonymity.
+I also used Claude's help to create a .gitignore file, so participants' answers are not published. Two of the three people in test round 2 mentioned anonymity.
 
 ## What I learned
 
@@ -104,7 +105,7 @@ I also used Claude's help to create a .gitignore file, so participants' answers 
 
 ### About people and the idea
 
-- Anonymity matters but saying "it is private" is not enough to make people safe. In my syrvey, 9 of 46 chose anonymity as important in online communication (30 chose sincerity).
+- Anonymity matters but saying "it is private" is not enough to make people safe. In my survey, 9 of 46 chose anonymity as important in online communication (30 chose sincerity).
 - A person should choose to share, not be pushed. Not every feeling needs another person.
 - The app is for good feelings too. I first thought about difficult emotions. Now the questions also work for joy.
 - Small words change a lot. The same question can be read as about the interface and about the feeling. So I also need to pay attention to UX writing.  
